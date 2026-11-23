@@ -1,0 +1,25 @@
+# Віртуальні середовища
+.venv/
+venv/
+env/
+# Кеші та збірки
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+# Секрети та локальні налаштування
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+# Логи та файли запуску
+*.log
+# IDE
+.vs/
+.vscode/
+.idea/
